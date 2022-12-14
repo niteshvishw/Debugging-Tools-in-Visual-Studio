@@ -8,8 +8,6 @@ namespace Debugging
 {
     class Program
     {
-        private static int a;
-
         static void Main(string[] args)
         {
             Console.Write("Enter The First Number: ");
@@ -33,5 +31,12 @@ namespace Debugging
     }
 }
 
+
+
 // Step Into - Debugger executes the program statement by statement, The debugger will execute the function body if the statement is a function call.
-// Step Over - 
+// Step Over - Step Overit do not show the details execution of a function.
+// Step Out - If the debugger is wittin a nested scope this action proceeds until the function returns.
+
+// BreakPoint - Breakpoint is a feature provided by the debugger that allows breaking execution of code at runtime when debugging applications.
+// breakpoint is a place to purposely pause or suspend debugger execution.
+
