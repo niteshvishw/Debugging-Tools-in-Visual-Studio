@@ -8,6 +8,20 @@ namespace Debugging
 {
     class Program
     {
+/*
+        // Autos Window - Autos window show all variables used in current line and pervious line.
+        // Locals Window - Locals window shows all local variables in the current scope.
+        void Autolocals()
+        {
+            int a, b, c, d, e;
+            a = 10;
+            b = 20;
+            c = 30;
+            d = 40;
+            e = 50;
+        }
+
+ */
         static void Main(string[] args)
         {
             Console.Write("Enter The First Number: ");
